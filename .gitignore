@@ -1,0 +1,11 @@
+build/
+
+.vscode/
+
+.idea/
+
+cmake-build-debug/
+
+gitPush
+
+gitPush.exe
