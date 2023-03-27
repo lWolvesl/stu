@@ -11,6 +11,7 @@
   - [Wine](Docker/wine)
 - [Embedded System](Embedded)
   - [Basic](Embedded/Basic)
+  - [Env](Embedded/Env)
 - [Git](Git)
 - [Gitea](Gitea)
 - [Gitlab](Gitlab)
@@ -35,9 +36,11 @@
 
 ### Wine
 
-## Embedded System
+## Embedded
 
 ### Basic
+
+### Env
 
 ## Git
 
