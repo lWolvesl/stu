@@ -3,7 +3,8 @@
 [回到主页](../../README.md)
 
 - 本次使用的嵌入式开发环境为`Clion + STLink + STM32CubeMX`,使用`STM32CubeMX`构建项目文件
-- [参考文档](https://blog.csdn.net/qq_41072660/article/details/122001734)
+- [参考文档1](https://blog.csdn.net/qq_41072660/article/details/122001734)
+- [参考文档2](https://www.bilibili.com/read/cv18659729)
 
 ## STM32CubeMX
 
@@ -70,5 +71,28 @@
     brew install open-ocd
     ```
 
+- 安装控制台驱动
 
+  ```shell
+  brew install stlink
+  ```
 
+  - 测试
+
+    ```shell
+    //探针测试
+    st-info --probe
+    //其他命令
+    st-info
+    
+    st-info --version
+    st-info --probe [--connect-under-reset] [--hot-plug] [--freq=<KHz>]
+    st-info --serial
+    st-info --flash  [--connect-under-reset] [--hot-plug] [--freq=<KHz>]
+    st-info --pagesize  [--connect-under-reset] [--hot-plug] [--freq=<KHz>]
+    st-info --sram  [--connect-under-reset] [--hot-plug] [--freq=<KHz>]
+    st-info --chipid  [--connect-under-reset] [--hot-plug] [--freq=<KHz>]
+    st-info --descr  [--connect-under-reset] [--hot-plug] [--freq=<KHz>]
+    ```
+
+    
