@@ -35,3 +35,15 @@
 	fetch = +refs/heads/*:refs/remotes/origin/*
 ```
 
+## Vscode显示`.git`文件目录
+
+在设置中
+
+- 快捷键
+  - mac：Cmd+，
+  - Win/Linux：Ctrl+，
+
+搜索`files.exclude`，更改隐藏规则
+
+`"**/.git""`
+
