@@ -47,3 +47,14 @@
 
 `"**/.git""`
 
+
+
+## 代理
+
+- 单次代理
+
+```shell
+git -c http.proxy=<> ...
+git -c https.proxy=<> ...
+```
+
