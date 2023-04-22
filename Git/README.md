@@ -24,3 +24,14 @@
 
   - 
 
+## 一次Push多个远程仓库
+
+在`.git/config`中的`remote`增加多个url即可
+
+```config
+[remote "origin"]
+	url = url1
+	url = url2
+	fetch = +refs/heads/*:refs/remotes/origin/*
+```
+
